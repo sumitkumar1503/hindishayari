@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.drawerlayout.widget.DrawerLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/drawer1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="@color/white"
+        >
+
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/toolbar1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/nav"
+            android:theme="@style/Theme.AppCompat.Light.DarkActionBar"
+            app:titleTextColor="@color/white">
+
+
+        </androidx.appcompat.widget.Toolbar>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="111dp">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="111dp"
+                android:src="@drawable/sumit" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="164dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="20dp"
+
+            android:layout_marginRight="20dp"
+            android:background="@color/btn">
+
+            <TextView
+                android:id="@+id/bios"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:text="sumit"
+                android:textColor="@color/nav"
+                android:textSize="16sp" />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/facebook"
+                android:layout_width="356dp"
+                android:layout_height="16dp"
+                android:layout_marginLeft="25dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="10dp"
+                android:layout_weight="1"
+                android:background="@color/white"
+                android:drawableLeft="@drawable/fbxml"
+
+                android:gravity="center"
+                android:paddingLeft="60dp"
+                android:paddingRight="50dp"
+                android:text="Connect on Facebook"
+                android:textColor="@color/nav" />
+
+            <Button
+                android:id="@+id/insta"
+                android:layout_width="356dp"
+                android:layout_height="16dp"
+                android:layout_marginLeft="25dp"
+                android:layout_marginBottom="10dp"
+
+                android:layout_weight="1"
+                android:background="@color/white"
+                android:drawableLeft="@drawable/instaxml"
+                android:paddingLeft="60dp"
+                android:paddingRight="50dp"
+                android:text="Follow On Instagram"
+                android:textColor="@color/nav" />
+
+            <Button
+                android:id="@+id/youtube"
+                android:layout_width="356dp"
+                android:layout_height="16dp"
+                android:layout_marginLeft="25dp"
+                android:layout_marginBottom="30dp"
+                android:layout_weight="1"
+                android:background="@color/white"
+                android:drawableLeft="@drawable/youtubexml"
+                android:paddingLeft="70dp"
+                android:paddingRight="40dp"
+                android:text="Subscribe my channel"
+                android:textColor="@color/nav" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+    <com.google.android.material.navigation.NavigationView
+        android:id="@+id/nav1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="start"
+        android:background="#E0F7FA"
+        app:headerLayout="@layout/header"
+        app:menu="@menu/drawer_menu" />
+
+
+</androidx.drawerlayout.widget.DrawerLayout>
+

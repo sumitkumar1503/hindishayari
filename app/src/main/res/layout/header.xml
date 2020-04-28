@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="172dp"
+    android:orientation="vertical"
+    android:padding="30dp"
+    android:background="@drawable/navbg"
+    android:theme="@style/Theme.AppCompat.Light"
+    >
+
+    <ImageView
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:src="@drawable/navlogo"
+        android:layout_marginLeft="110dp"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hindi Shayari"
+        android:layout_marginLeft="100dp"
+        android:fontFamily="serif"
+        android:textSize="15sp"
+        style="@style/TextAppearance.AppCompat.Body1"
+
+        android:textColor="#FFEBEE"/>
+
+</LinearLayout>

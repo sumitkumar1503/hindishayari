@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.sumit.hindishayari">
+<uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <application
+
+        android:allowBackup="true"
+        android:hardwareAccelerated="true"
+        android:icon="@drawable/logo"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/logo"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".Splash">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".SorryShayari" />
+        <activity android:name=".DeshbhaktiShayari" />
+        <activity android:name=".BewafaShayari" />
+        <activity android:name=".ComedyShayari" />
+        <activity android:name=".FriendshipShayari" />
+        <activity android:name=".LoveShayari" />
+        <activity android:name=".MainActivity">
+
+        </activity>
+        <activity android:name=".DeveloperSumit" />
+
+
+        <meta-data
+            android:name="com.google.android.gms.ads.APPLICATION_ID"
+            android:value="@string/app_id"/>
+    </application>
+
+</manifest>

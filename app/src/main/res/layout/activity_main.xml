@@ -1,0 +1,216 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.drawerlayout.widget.DrawerLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:fitsSystemWindows="true"
+    android:id="@+id/drawer1">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/toolbar1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/nav"
+            app:titleTextColor="@color/white"
+            android:theme="@style/Theme.AppCompat.Light.DarkActionBar">
+
+        </androidx.appcompat.widget.Toolbar>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="535dp"
+            android:background="#FFFFFF"
+            android:orientation="horizontal">
+
+
+            <LinearLayout
+                android:layout_width="214dp"
+                android:layout_height="wrap_content"
+                android:background="#FFFFFF"
+                android:orientation="vertical">
+
+                <ImageButton
+                    android:id="@+id/lovebtn"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+
+                    android:background="#FFFFFF"
+                    android:contentDescription="lovebutton"
+                    android:paddingLeft="20dp"
+                    android:paddingRight="20dp"
+                    android:scaleType="fitXY"
+
+                    app:srcCompat="@drawable/lovexml" />
+
+                <TextView
+                    android:id="@+id/lovetxt"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="#FFFFFF"
+                    android:gravity="center"
+                    android:text="@string/love_shayari" />
+
+
+                <ImageButton
+                    android:id="@+id/friendshipbtn"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+
+                    android:background="#FFFFFF"
+                    android:contentDescription="friendshipbutton"
+                    android:paddingLeft="30dp"
+                    android:paddingRight="30dp"
+                    android:scaleType="fitXY"
+
+
+                    app:srcCompat="@drawable/friendshipxml" />
+
+
+                <TextView
+                    android:id="@+id/friendshiptxt"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="#FFFFFF"
+                    android:gravity="center"
+                    android:text="Friendship Shayari" />
+
+                <ImageButton
+                    android:id="@+id/bewafabtn"
+                    android:layout_width="match_parent"
+
+
+                    android:layout_height="wrap_content"
+
+                    android:background="#FFFFFF"
+                    android:contentDescription="bewafabutton"
+                    android:paddingLeft="20dp"
+                    android:paddingRight="20dp"
+                    android:scaleType="fitXY"
+
+
+                    app:srcCompat="@drawable/bewafaxml" />
+
+                <TextView
+                    android:id="@+id/bewafatxt"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="#FFFFFF"
+
+                    android:gravity="center"
+                    android:text="@string/bewafa_shayari" />
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <ImageButton
+                    android:id="@+id/sorrybtn"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+
+                    android:background="#FFFFFF"
+                    android:contentDescription="sorrybutton"
+                    android:paddingLeft="20dp"
+                    android:paddingRight="20dp"
+                    android:scaleType="fitXY"
+
+                    app:srcCompat="@drawable/sorryxml" />
+
+                <TextView
+                    android:id="@+id/sorrytxt"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="#FFFFFF"
+
+                    android:gravity="center"
+                    android:text="@string/sorry_shayari" />
+
+                <ImageButton
+                    android:id="@+id/comedybtn"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+
+                    android:background="#FFFFFF"
+                    android:contentDescription="comedybutton"
+                    android:paddingLeft="20dp"
+                    android:paddingRight="20dp"
+                    android:scaleType="fitXY"
+
+
+                    app:srcCompat="@drawable/comedyxml" />
+
+                <TextView
+                    android:id="@+id/comedytxt"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="#FFFFFF"
+                    android:gravity="center"
+                    android:text="@string/comedy_shayari" />
+
+                <ImageButton
+                    android:id="@+id/deshbhaktibtn"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+
+                    android:background="#FFFFFF"
+                    android:contentDescription="deshbhaktibutton"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:scaleType="fitXY"
+
+
+                    app:srcCompat="@drawable/indiaxml" />
+
+                <TextView
+                    android:id="@+id/deshbhaktitxt"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="#FFFFFF"
+                    android:gravity="center"
+                    android:paddingTop="10dp"
+                    android:text="Deshbhakti Shayari" />
+            </LinearLayout>
+
+        </LinearLayout>
+
+
+
+            <com.google.android.gms.ads.AdView xmlns:ads="http://schemas.android.com/apk/res-auto"
+                android:id="@+id/adView"
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom"
+
+                ads:adSize="SMART_BANNER"
+                ads:adUnitId="@string/banner" />
+
+
+
+
+
+    </LinearLayout>
+
+
+
+    <com.google.android.material.navigation.NavigationView
+        android:id="@+id/nav1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="start"
+        android:background="#FFFFFF"
+        app:menu="@menu/drawer_menu"
+        app:headerLayout="@layout/header"
+        >
+
+    </com.google.android.material.navigation.NavigationView>
+</androidx.drawerlayout.widget.DrawerLayout>
+

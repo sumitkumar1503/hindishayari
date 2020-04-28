@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Hindi Shayari</string>
+    <string name="sorry_shayari">Sorry Shayari</string>
+    <string name="bewafa_shayari">Bewafa Shayari</string>
+    <string name="love_shayari">Love Shayari</string>
+    <string name="todo">TODO</string>
+    <string name="comedy_shayari">Comedy Shayari</string>
+
+    <string name="app_id">ca-app-pub-4972523292041750~3584162536</string>
+    <string name="banner">ca-app-pub-4972523292041750/2079509179</string>
+    <string name="inter">ca-app-pub-4972523292041750/8345534623</string>
+
+
+
+</resources>

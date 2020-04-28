@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single"
+        android:id="@+id/group1">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/homeimg"
+            android:title="Home"></item>
+
+
+    </group>
+
+
+    <group android:checkableBehavior="single"
+        android:id="@+id/group2">
+        <item
+            android:id="@+id/nav_dev"
+            android:icon="@drawable/devimg"
+            android:title="Developer"></item>
+
+        <item
+            android:id="@+id/nav_share"
+            android:icon="@drawable/shareimg"
+            android:title="Share"></item>
+        <item
+            android:id="@+id/nav_rate"
+            android:icon="@drawable/rateimg"
+            android:title="Rate 5 Star"></item>
+        <item
+            android:id="@+id/nav_exit"
+            android:icon="@drawable/exitimg"
+            android:title="Exit"></item>
+    </group>
+
+
+
+
+
+</menu>
