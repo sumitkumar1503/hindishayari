@@ -1,3 +1,3 @@
-# Download From Playstore
+# Hindi Shayari
 
-https://play.google.com/store/apps/details?id=com.sumit.hindishayari
+[Download From Playstore](https://play.google.com/store/apps/details?id=com.sumit.hindishayari)
